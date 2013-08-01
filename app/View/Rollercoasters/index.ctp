@@ -4,7 +4,7 @@
 
     foreach ($rollercoasters as $num => $rollercoaster){
         $c_id = $rollercoaster['Rollercoaster']['coasterId'];
-        echo "</br><h3><a href='coasterInfo.php?id=" . mysql_real_escape_string($c_id) . "'>{$rollercoaster['Rollercoaster']['coasterName']}</a></h2>";
+        echo "</br><h3><a href='CoasterInfo" . mysql_real_escape_string($c_id) . "'>{$rollercoaster['Rollercoaster']['coasterName']}</a></h2>";
         
     }
 ?>
