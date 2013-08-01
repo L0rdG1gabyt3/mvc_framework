@@ -2,15 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f473201-9bba-404f-85cd-6e0453d427e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/CoasterInfo/index.ctp" afterPath="$PROJECT_DIR$/app/View/CoasterInfo/index.ctp" />
+      <change type="DELETED" beforePath="C:\wamp\www\bdf1307\Klug_Joshua\mvc_framework\mvc_framework\app\Controller\CoasterInfoController.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\bdf1307\Klug_Joshua\mvc_framework\mvc_framework\app\View\CoasterInfo\index.ctp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/RollercoastersController.php" afterPath="$PROJECT_DIR$/app/Controller/RollercoastersController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Rollercoasters/index.ctp" afterPath="$PROJECT_DIR$/app/View/Rollercoasters/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mvc_framework.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375397799877" ignored="false" />
-    <file path="/CoasterInfoController.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375397531814" ignored="false" />
+    <file path="/CoasterInfoController.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375398863097" ignored="false" />
     <file path="/a.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375397736723" ignored="false" />
-    <file path="/index.ctp" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375398363282" ignored="false" />
+    <file path="/index.ctp" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375399884359" ignored="false" />
     <file path="/CoasterInfo.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375398569770" ignored="false" />
+    <file path="/a.dummy" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375398951769" ignored="false" />
+    <file path="/CoasterDetailsController.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375398995235" ignored="false" />
+    <file path="/RollercoastersController.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375399637049" ignored="false" />
+    <file path="/view.ctp" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375399720484" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,55 +38,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CoasterInfoController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/CoasterInfoController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-3.2692308">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/CoasterInfo/index.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="5" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rollercoaster.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Model/Rollercoaster.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CoasterInfo.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Model/CoasterInfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="2" selection-start="56" selection-end="56" vertical-scroll-proportion="0.103785105">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Rollercoasters/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="1" selection-start="41" selection-end="289" vertical-scroll-proportion="0.0">
+            <state line="22" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RollercoastersController.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RollercoastersController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Controller/RollercoastersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="4" selection-start="0" selection-end="246" vertical-scroll-proportion="-0.0">
+            <state line="12" column="22" selection-start="260" selection-end="270" vertical-scroll-proportion="0.24908425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Rollercoasters/view.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="68" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,10 +83,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/View/Rollercoasters/index.ctp" />
-        <option value="$PROJECT_DIR$/app/Controller/CoasterInfoController.php" />
-        <option value="$PROJECT_DIR$/app/View/CoasterInfo/index.ctp" />
         <option value="$PROJECT_DIR$/app/Model/CoasterInfo.php" />
+        <option value="$PROJECT_DIR$/app/View/CoasterInfo/index.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/CoasterInfoController.php" />
+        <option value="$PROJECT_DIR$/app/Controller/CoasterDetailsController.php" />
+        <option value="$PROJECT_DIR$/app/View/Rollercoasters/view.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/RollercoastersController.php" />
+        <option value="$PROJECT_DIR$/app/View/Rollercoasters/index.ctp" />
       </list>
     </option>
   </component>
@@ -211,28 +195,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Rollercoasters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc_framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mvc_framework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoasterInfo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,44 +360,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Controller/CoasterInfoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="5" selection-start="242" selection-end="242" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/RollercoastersController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="4" selection-start="0" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/CoasterInfoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="88" selection-end="88" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/RollercoastersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="0" selection-end="246" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Rollercoasters/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="41" selection-end="289" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/CoasterInfo/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="5" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -450,6 +377,27 @@
     <entry file="file://$PROJECT_DIR$/app/Model/CoasterInfo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="2" selection-start="56" selection-end="56" vertical-scroll-proportion="0.103785105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Rollercoasters/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="68" selection-start="98" selection-end="98" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Rollercoasters/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/RollercoastersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="22" selection-start="260" selection-end="270" vertical-scroll-proportion="0.24908425">
           <folding />
         </state>
       </provider>

@@ -9,6 +9,10 @@
 			
 			$this->set('rollercoasters', $rollercoasters);
 		}
+
+        function view($id = NULL){
+            $this->set('rollercoasters', $this->Rollercoaster->read(NULL, $id));
+        }
 	
 	}
 	
