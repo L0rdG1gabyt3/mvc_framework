@@ -3,7 +3,9 @@
 <?php
 	
 	foreach($rollercoasters as $rollercoaster){
-		pr($rollercoaster);
+		//pr($rollercoaster);
+		
+		echo $rollercoaster['Rollercoaster']['coasterName'];
 	}
 	
 ?>
