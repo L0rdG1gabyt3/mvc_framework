@@ -9,8 +9,8 @@ class RollercoastersController extends AppController {
         $this->set('rollercoasters', $this->Rollercoaster->find('all'));
     }
 
-    function view($coasterId = NULL) {
-        $this->set('rollercoaster', $this->Rollercoaster->read(NULL, $coasterId));
+    function view($id = NULL) {
+        $this->set('rollercoaster', $this->Rollercoaster->read(NULL, $id));
     }
 
 }
