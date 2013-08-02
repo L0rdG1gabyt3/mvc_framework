@@ -11,9 +11,9 @@
 		}
 
         function view($id = NULL){
-            $this->set('rollercoasters', $this->Rollercoaster->read(NULL, $id));
+            $this->set('rollercoaster', $this->Rollercoaster->read(NULL, $id));
+            //$rollercoasters = $this->Rollercoaster->read('all');
+           // $this->set('rollercoasters', $rollercoasters);
         }
-	
-	}
 	
 ?>
