@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f473201-9bba-404f-85cd-6e0453d427e8" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\bdf1307\Klug_Joshua\mvc_framework\mvc_framework\app\Model\CoasterInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\bdf1307\Klug_Joshua\mvc_framework\mvc_framework\app\Controller\RollercoastersController.php" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\bdf1307\Klug_Joshua\mvc_framework\mvc_framework\app\View\Rollercoasters\index.ctp" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\bdf1307\Klug_Joshua\mvc_framework\mvc_framework\app\View\Rollercoasters\view.ctp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/Rollercoaster.php" afterPath="$PROJECT_DIR$/app/Model/Rollercoaster.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/RollercoastersController.php" afterPath="$PROJECT_DIR$/app/Controller/RollercoastersController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Rollercoasters/view.ctp" afterPath="$PROJECT_DIR$/app/View/Rollercoasters/view.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mvc_framework.iws" />
@@ -13,12 +13,12 @@
     <file path="/Dummy.txt" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375397799877" ignored="false" />
     <file path="/CoasterInfoController.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375398863097" ignored="false" />
     <file path="/a.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375397736723" ignored="false" />
-    <file path="/index.ctp" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375405411088" ignored="false" />
+    <file path="/index.ctp" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375424781741" ignored="false" />
     <file path="/CoasterInfo.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375404301663" ignored="false" />
-    <file path="/a.dummy" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375398951769" ignored="false" />
+    <file path="/a.dummy" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375423810208" ignored="false" />
     <file path="/CoasterDetailsController.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375398995235" ignored="false" />
-    <file path="/RollercoastersController.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375409500009" ignored="false" />
-    <file path="/view.ctp" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375409798049" ignored="false" />
+    <file path="/RollercoastersController.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375423929646" ignored="false" />
+    <file path="/view.ctp" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375424910047" ignored="false" />
     <file path="/Rollercoaster.php" changelist="8f473201-9bba-404f-85cd-6e0453d427e8" time="1375402847096" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +44,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.ctp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/View/Rollercoasters/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="13" selection-start="41" selection-end="387" vertical-scroll-proportion="0.0">
+            <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -56,25 +56,16 @@
       <file leaf-file-name="RollercoastersController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/RollercoastersController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="42" selection-start="445" selection-end="445" vertical-scroll-proportion="-11.769231">
+            <state line="14" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="-13.461538">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.ctp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="view.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Rollercoasters/view.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="58" selection-start="220" selection-end="220" vertical-scroll-proportion="0.040236685">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rollercoaster.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Model/Rollercoaster.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="5" selection-start="84" selection-end="84" vertical-scroll-proportion="-3.9230769">
+            <state line="7" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,9 +93,9 @@
         <option value="$PROJECT_DIR$/app/Controller/CoasterInfoController.php" />
         <option value="$PROJECT_DIR$/app/Controller/CoasterDetailsController.php" />
         <option value="$PROJECT_DIR$/app/Model/CoasterInfo.php" />
-        <option value="$PROJECT_DIR$/app/View/Rollercoasters/index.ctp" />
         <option value="$PROJECT_DIR$/app/Model/Rollercoaster.php" />
         <option value="$PROJECT_DIR$/app/Controller/RollercoastersController.php" />
+        <option value="$PROJECT_DIR$/app/View/Rollercoasters/index.ctp" />
         <option value="$PROJECT_DIR$/app/View/Rollercoasters/view.ctp" />
       </list>
     </option>
@@ -115,6 +106,28 @@
     <option name="y" value="-8" />
     <option name="width" value="1696" />
     <option name="height" value="1026" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>Type compatibilityPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpParamsInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -256,8 +269,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="editor" />
     <property name="FullScreen" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig" serverName="MVC Framework" serverId="462c9142-a9a3-4b0c-b3d7-0b3e5dee1685">
     <servers>
@@ -270,7 +288,12 @@
       </server>
     </servers>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHP Script.RollercoastersController.php">
+    <configuration default="false" name="RollercoastersController.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/app/Controller/RollercoastersController.php">
+      <RunnerSettings RunnerId="PhpRunner" />
+      <ConfigurationWrapper RunnerId="PhpRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -281,9 +304,33 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="462c9142-a9a3-4b0c-b3d7-0b3e5dee1685" server_name="MVC Framework">
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.RollercoastersController.php" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.RollercoastersController.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="8f473201-9bba-404f-85cd-6e0453d427e8" name="Default" comment="" />
@@ -292,24 +339,44 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986537" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24724603" sideWeight="0.9976985" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13157895" sideWeight="0.67049366" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295063" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -376,37 +443,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Controller/RollercoastersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="0" selection-end="246" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/Rollercoaster.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="84" selection-end="84" vertical-scroll-proportion="-3.9230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/RollercoastersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="42" selection-start="445" selection-end="445" vertical-scroll-proportion="-11.769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Rollercoasters/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="41" selection-end="387" vertical-scroll-proportion="0.0">
+        <state line="3" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.062271062">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Rollercoasters/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="58" selection-start="220" selection-end="220" vertical-scroll-proportion="0.040236685">
+        <state line="7" column="0" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/RollercoastersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="-13.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Rollercoasters/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

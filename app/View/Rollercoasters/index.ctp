@@ -1,15 +1,15 @@
-<h2>Overview of the Rollercoasters</h2>
+<h2>Index of All Rollercoasters</h2>
 
 <table>
-    <tr>
-        <th>Rollercoaster Names</th>
-    </tr>
-
-    <?php foreach($rollercoasters as $rollercoaster): ?>
 	<tr>
-		<td><?php echo $this->Html->link($rollercoaster['Rollercoaster']['coasterName'],
-        			array('action'=>'view', $rollercoaster['Rollercoaster']['coasterName'])); ;?></td>
+		<th>Coaster Name</th>
 
 	</tr>
-    <?php endforeach; ?>
+	<?php foreach($rollercoasters as $rollercoaster): ?>
+	<tr>
+		<td><?php echo $this->Html->link($rollercoaster['Rollercoaster']['coasterName'],
+			array('action'=>'view', $rollercoaster['Rollercoaster']['id'])); ;?></td>
+
+	</tr>
+	<?php endforeach; ?>
 </table>

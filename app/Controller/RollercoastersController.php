@@ -1,33 +1,18 @@
 <?php
-	
-	class RollercoastersController extends AppController{
 
-        var $name = 'Rollercoasters';
-		
-		public function index(){
+class RollercoastersController extends AppController {
 
-            $this->set('rollercoasters', $this->Rollercoaster->find('all'));
-			
-//			$rollercoasters = $this->Rollercoaster->find('all');
-			//pr($rollercoasters);
-			
-//			$this->set('rollercoasters', $rollercoasters);
-		}
+    var $name = 'Rollercoasters';
 
-        function view($id = null)
-        {
-            $this->Rollercoaster->coasterId = $id;
-            $this->set('rollercoaster', $this->Rollercoaster->read());
-        }
+    public function index(){
 
-//        function view($id = NULL){
-//            $this->Rollercoaster->id = $id;
-//            $this->set('rollercoaster', $this->Rollercoaster->)
-            //$this->set('rollercoaster', $this->Rollercoaster->read('coasterId'));
-            //$rollercoasters = $this->Rollercoaster->read('all');
-           // $this->set('rollercoasters', $rollercoasters);
-//        }
-
+        $this->set('rollercoasters', $this->Rollercoaster->find('all'));
     }
-	
+
+    function view($coasterId = NULL) {
+        $this->set('rollercoaster', $this->Rollercoaster->read(NULL, $coasterId));
+    }
+
+}
+
 ?>
