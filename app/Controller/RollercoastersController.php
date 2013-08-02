@@ -15,5 +15,7 @@
             //$rollercoasters = $this->Rollercoaster->read('all');
            // $this->set('rollercoasters', $rollercoasters);
         }
+
+    }
 	
 ?>

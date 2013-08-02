@@ -8,7 +8,7 @@
     <?php foreach($rollercoasters as $rollercoaster): ?>
 	<tr>
 		<td><?php echo $this->Html->link($rollercoaster['Rollercoaster']['coasterName'],
-        			array('action'=>'view', $rollercoaster['Rollercoaster']['coasterId'])); ;?></td>
+        			array('action'=>'view', $rollercoaster['Rollercoaster']['coasterName'])); ;?></td>
 
 	</tr>
     <?php endforeach; ?>
