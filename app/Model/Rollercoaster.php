@@ -5,8 +5,5 @@
 		var $name = 'Rollercoaster';
 		
 	}
-	
-	
-
 
 ?>

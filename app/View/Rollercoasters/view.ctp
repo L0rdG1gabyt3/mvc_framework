@@ -1,19 +1,3 @@
-<h2><?php echo $rollercoaster['Rollercoaster']['coasterName']; ?> </h2>
-
-<h3></h3>
-
-<table>
-    <tr>
-        <th>Rollercoaster Name</th>
-        <th>Type</th>
-        <th>Height</th>
-        <th>Speed</th>
-        <th>Length</th>
-    </tr>
-
-	<tr>
-		<td><?php echo $rollercoaster['Rollercoaster']['coasterName']; ?></td>
-
-	</tr>
-
-</table>
+  <h1><?php echo $rollercoaster['Rollercoaster']['coasterName']?></h1>
+     <p><small>Created: <?php echo $rollercoaster['Rollercoaster']['height']?></small></p>
+     <p><?php echo $rollercoaster['Rollercoaster']['length']?></p>
